@@ -1,0 +1,79 @@
+body,div,a,img,li,ul,p,ol,span,h2,h1,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 12px;
+	font-family: "Microsoft Yahei",Arial,helvetica,sans_serif;
+	font-weight: normal;
+}
+ul , li , ol {
+	list-style: none;
+}
+img {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.cursor_p{
+	cursor: pointer;
+}
+.ml50{
+	margin-left: 50px;
+}
+.mr50{
+	margin-right: 50px;
+}
+.mt10{
+	margin-top: 10px;
+}
+.ios_download{
+	display: inline-block;
+	width: 120px;
+	height:41px;
+	margin-left: 40px;
+	margin-top: 15px;
+	cursor: pointer;
+	float: left;
+	background:url(../img/ios.png)
+}
+.android_download{
+	display: inline-block;
+	width: 120px;
+	height:41px;
+	margin-left: 40px;
+	margin-top: 5px;
+	cursor: pointer;
+	float: left;
+	background:url(../img/android.png)
+}
+.taptap_download{
+	display: inline-block;
+	width: 120px;
+	height:35px;
+	margin-left: 40px;
+	margin-top: 5px;
+	cursor: pointer;
+	float: left;
+}
+.toSY{
+	text-align: left;
+	display: block;
+	padding-top: 40px;
+	padding-left: 28px;
+	float: left;
+	width: 720px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #376ba6;
+}

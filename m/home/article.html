@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>《妖怪正传》官网，水墨风探索式手游</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="description" content="《妖怪正传》是一款以民间传说为心，策略战棋为筋骨，探索为双足，经两载孕育而生的水墨风探索式手游">
+  <meta name="keywords" content="水墨风，网游，rpg，捉妖，战棋，探索，国风">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=640">
+  <link rel="stylesheet" href="css/article.css?v=2017.11.22">
+  <link rel="stylesheet" href="css/common.css?v=2017.11.22">
+  <script type="text/javascript" src="http://s0.web.hulai.com/static/jquery/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="http://page.hulai.com/static/open/js/vue-2.1.8.min.js"></script>
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/hulai-cms-0.0.1.js"></script>
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/isMobile.min.js"></script>
+</head>
+<body>
+<div id="app" v-cloak>
+  <div class="top">
+    <a href="index.html"><img class="icon" src="img/icon.png"></a>
+    <section>
+      <span>妖怪正传</span>
+      <span>水墨风探索式手游</span>
+    </section>
+    <a :href="download_link" style="float: right;margin-right: 30px;margin-top: 32px;">
+      <img src="img/download_top.png">
+    </a>
+  </div>
+  <!-- 视频 -->
+  <img class="video" src="img/video_btn.png" onclick="playVideo()">
+  <!-- 下载 -->
+  <div class="download">
+    <a :href="download_link">
+      <img src="img/download_middle.png">
+    </a>
+  </div>
+
+  <!-- bg1 -->
+  <div class="bg1">
+    <div class="title">{{article_title}}</div>
+    <div class="time">发布日期 {{article_time}}</div>
+  </div>
+
+  <!-- bg2 -->
+  <div class="bg2">
+    <div class="content" v-html="article_content">
+      {{article_content}}
+    </div>
+  </div>
+
+  <!-- bg3 -->
+  <div class="bg3">
+    <div class="footer">
+      <div class="ui inverted segment">
+        <div class="ui container c_center">
+          <p>
+            温馨提示：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活
+            <br/> 本网站所有游戏仅适合于年满18周岁以上的用户。如果您未满18周岁，不建议您注册并使用本网络游戏服务；
+            如果您坚持使用，请您务必加入本网络游戏防沉迷系统进行实名注册，同时我们将会按照您法定监护人的需求提供您在本网络游戏中的信息。
+            <br/> 您在使用本网络游戏服务之前已经明确知晓网络游戏可能给您带来的一切潜在威胁，包括长时间游戏可能不利于您的身心健康等。为了您的健康请您合理的使用本网络游戏。
+          </p>
+
+          <br/>
+            京ICP备11034336号-1 |
+            <a target="_blank" href="http://www.hulai.com/assets/files/huai_wenwangwen.jpg">
+              <font>京网文[2011]0744-272号 |</font>
+            </a>
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502033250">
+              <font><img src="http://www.beian.gov.cn/img/ghs.png">京公网安备 11010502033250号 |</font>
+            </a>
+            <a target="_blank" href="http://www.hulai.com/assets/files/huai_xukezheng.pdf">
+              <font>（总）网出证（京）字第095号 |</font>
+            </a>
+            <a href="#">
+              <font>ICP证书号:京B2-20171148</font>
+            </a>
+          <br/>
+            <a class="c_white" target="_blank" href="http://www.hulai.com/server" style="color:rgb(51,73,93)">服务协议 |</a>
+            <a class="c_white" target="_blank" href="http://www.hulai.com/privacy" style="color:rgb(51,73,93)">隐私权保护声明 |</a>
+            <a class="c_white" target="_blank" href="http://www.hulai.com/minors" style="color:rgb(51,73,93)">未成年人家长监护 |</a>
+            <a class="c_white" target="_blank" href="http://www.hulai.com/law" style="color:rgb(51,73,93)">法律声明 |</a>
+            <a class="c_white" target="_blank" href="http://www.hulai.com/dispute" style="color:rgb(51,73,93)">纠纷、投诉</a>
+          <br/>
+            北京市石景山区八大处高科技园区西井路3号3号楼9229房间 010-62662622
+          <br/>
+            Copyright © 2015 Hoolai Games. All Rights Reserved | 互爱互动（北京）科技有限公司版权所有
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="video_player">
+    <img src="img/close.png" class="video_close" onclick="closeVideo()">
+    <video id="video" width="640" height="360" src="http://cdn.ygzz.hulai.com/shipin/ygzz-11-27.mp4" controls="controls">
+    无法支持html5浏览器
+  </video>
+  </div>
+  <div class="cover"></div>
+</div>
+<script type="text/javascript" src="js/index.js?v=2017.11.22"></script>
+<script type="text/javascript">
+  function playVideo() {
+    $(".video_player").css("display", "block");
+    $(".cover").css("display", "block");
+    var myVideo = document.getElementById("video");
+    myVideo.play();
+  }
+  // 视频关闭
+  function closeVideo(){
+    $(".video_player").css("display", "none");
+    $(".cover").css("display", "none");
+    var myVideo = document.getElementById("media");
+    myVideo.pause();
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body,ul,li{
+  width: 100%;
+  height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow-x:hidden;
+}
+body{
+  font-family: "Microsoft YaHei";
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+  color: inherit;
+}
+[v-cloak] {
+  display: none;
+}
+@font-face{
+  font-family: 'SIMLI';
+  src: url("../fonts/SIMLI.eot"); /* IE9 */
+  src: url("../fonts/SIMLI.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/SIMLI.woff") format("woff"), /* chrome, firefox */
+
+  /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url("../fonts/SIMLI.ttf") format("truetype"),
+  url("../fonts/SIMLI.svg#SIMLI") format("svg"); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: normal;
+}
+.top{
+  width: 100%;
+  height: 125px;
+  position: fixed;
+  z-index: 2;
+  background: url(../img/topbg.png) no-repeat;
+  top: 0;
+}
+.icon{
+  margin-left: 25px;
+  margin-top: 30px;
+  display: inline-block;
+  float: left;
+}
+/*.top img:first-child{
+  margin-left: 30px;
+  margin-top: 8px;
+  display: inline-block;
+  float: left;
+}*/
+section{
+  display: inline-block;
+  color: #fff;
+  margin-left: 15px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+section span:first-child{
+  font-size: 28px;
+  display: block;
+  margin-bottom: 5px;
+}
+.top :nth-child(3){
+  float: right;
+  margin-right: 30px;
+  margin-top: 14px;
+}
+.download{
+  position: absolute;
+  top: 800px;
+  text-align: center;
+  width: 100%;
+}
+.download a{
+  display: inline-block;
+}
+#cover{
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+.dialog{
+  z-index: 11;
+  background: url(../img/qrcode.jpg) no-repeat;
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -200px;
+  background-size: 400px 400px;
+}
+.video{
+  position: absolute;
+  top: 670px;
+  left: 28px;
+}
+.video_player{
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  margin-top: -207px;
+  display: none;
+}
+.video_close{
+  float: right;
+  z-index: 110;
+  width: 50px;
+  height: 50px;
+}
+.cover{
+  display: none;
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>《妖怪正传》官网，水墨风探索式手游</title>
+  <meta name="keywords" content="水墨风，网游，rpg，捉妖，战棋，探索，国风">
+  <meta name="description" content="《妖怪正传》是一款以民间传说为心，策略战棋为筋骨，探索为双足，经两载孕育而生的水墨风探索式手游">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="http://static.wdyxgames.com/common/js/swiper.min.js"></script>
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/hulai-activity-0.0.1.js?v=2017.10.24"></script>
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/isMobile.min.js?v=2017.10.24"></script>
+  <script type="text/javascript" src="http://page.hulai.com/static/open/js/vue-2.1.8.min.js"></script>
+  <script type="text/javascript" src="//page.hulai.com/static/open/js/hulai-cms-0.0.1.js?v=2017.10.24"></script>
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <div class="sec_container">
+      <ul class="nav">
+        <li style="margin-top: -20px;"><img src="img/logo.png" alt=""></li>
+        <li><a href="index.html">官网首页</a></li>
+        <li class='black_cloud'><a style="color:white;" href="list.html">新闻公告</a></li>
+        <li><a href="datum.html">游戏资料</a></li>
+        <li><a target="_blank" href=" https://tieba.baidu.com/f?kw=%E5%A6%96%E6%80%AA%E6%AD%A3%E4%BC%A0&ie=utf-8">玩家互动</a></li>
+      </ul>
+      <div class="yuyue">
+        <a href="https://www.taptap.com/app/69752"><img src="img/first_download.png" alt=""></a>
+        <img src="img/bofang.png" alt="" class="bofang" @click='clickVideo()'>
+      </div>
+      <div class="sec_bg">
+        <div class="sec_top">
+          <ul class="sec_news">
+            <li @click="goGetList('公告',1,3)" :class="{'sec_black_cloud':isChecked == 1}">公告</li>
+            <li @click="goGetList('最新',1,3)" :class="{'sec_black_cloud':isChecked == 2}">最新</li>
+            <li @click="goGetList('攻略',1,3)" :class="{'sec_black_cloud':isChecked == 3}">攻略</li>
+            <li @click="goGetList('活动',1,3)" :class="{'sec_black_cloud':isChecked == 4}">活动</li>
+            <li @click="goGetList('新闻',1,3)" :class="{'sec_black_cloud':isChecked == 5}">新闻</li>
+          </ul>
+
+          <div class="sec_list" v-for="item in listData">
+            <div class="sec_all">
+              <div class="sec_img">
+                <img :src="item.fields.pc_pic" alt="">
+              </div>
+              <div class="sec_article">
+                <div class="sec_article_top">
+                  <span class="sec_title">{{item.title}}</span>
+                  <span class="sec_dis">{{item.updated}}</span>
+                </div>
+                <p class="sec_descript">{{item.description}}</p>
+                <div class="sec_down">
+                  <a :href="item.hrefVal"><img src="img/sec_down.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <ul class="sec_page" v-show="more1">
+          <li v-if="cur>1" style="float:left;margin-left: 78px;"><a v-on:click="cur--,btnClick(cur)" class="banclick">上一页</a></li>
+          <li v-if="cur==1" style="float:left;margin-left: 78px;"><a class="banclick">上一页</a></li>
+          <li v-if="cur!=all" style="float:right;margin-right: 78px;"><a v-on:click="cur++,btnClick(cur)" class="banclick">下一页</a></li>
+          <li v-if="cur == all" style="float:right;margin-right: 78px;"><a class="banclick">下一页</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="enjoy sec_enjoy">
+        <div class="enjoy_left">
+          <img src="img/wexin.png" alt="">
+        </div>
+        <div class="enjoy_right">
+          <img src="img/weibo.png" alt="">
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          温馨提示：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活
+          <br/> 本网站所有游戏仅适合于年满18周岁以上的用户。如果您未满18周岁，不建议您注册并使用本网络游戏服务；
+          <br/> 如果您坚持使用，请您务必加入本网络游戏防沉迷系统进行实名注册，同时我们将会按照您法定监护人的需求提供您在本网络游戏中的信息。
+          <br/> 您在使用本网络游戏服务之前已经明确知晓网络游戏可能给您带来的一切潜在威胁，包括长时间游戏可能不利于您的身心健康等。为了您的健康请您合理的使用本网络游戏。
+        </p>
+
+        <p>京ICP备11034336号-1 |
+          <a target="_blank" href="http://hulai.com/assets/files/huai_wenwangwen.jpg">
+            <font>京网文[2011]0744-272号 |</font>
+          </a>
+          <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502033250">
+            <font><img src="http://www.beian.gov.cn/img/ghs.png">京公网安备 11010502033250号 |</font>
+          </a>
+          <a target="_blank" href="http://hulai.com/assets/files/huai_xukezheng.pdf">
+            <font>（总）网出证（京）字第095号 |</font>
+          </a>
+          <a href="#">
+            <font>ICP证书号:京B2-20171148</font>
+          </a>
+        </p>
+        <p>
+          <a class="c_white" target="_blank" href="http://www.hulai.com/server">服务协议 |</a>
+          <a class="c_white" target="_blank" href="http://www.hulai.com/privacy">隐私权保护声明 |</a>
+          <a class="c_white" target="_blank" href="http://www.hulai.com/minors">未成年人家长监护 |</a>
+          <a class="c_white" target="_blank" href="http://www.hulai.com/law">法律声明 |</a>
+          <a class="c_white" target="_blank" href="http://www.hulai.com/dispute">纠纷、投诉</a>
+        </p>
+        <p>
+          北京市石景山区八大处高科技园区西井路3号3号楼9229房间 010-62662622
+        </p>
+        <p>
+          Copyright © 2015 Hoolai Games. All Rights Reserved | 互爱互动（北京）科技有限公司版权所有
+        </p>
+      </div>
+      <!-- 遮罩层 -->
+      <div id="cover" v-show="cover"></div>
+      <!-- 视频内容播放 -->
+      <div class="video_player" v-show="video_play">
+        <img src="img/close_video.png" class="video_close" @click="videoClose()">
+        <video width="640" height="360" src="http://cdn.ygzz.hulai.com/shipin/ygzz-11-27.mp4" controls="controls">
+          无法支持html5浏览器
+        </video>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

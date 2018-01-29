@@ -1,0 +1,505 @@
+[{
+    "channelId": 1,
+    "channelName": "微信-新闻",
+    "downloadUrl": ""
+}, {
+    "channelId": 2,
+    "channelName": "微信-龙虎豹",
+    "downloadUrl": ""
+}, {
+    "channelId": 3,
+    "channelName": "微信-游戏陀螺",
+    "downloadUrl": ""
+}, {
+    "channelId": 4,
+    "channelName": "微信-手游那点事",
+    "downloadUrl": ""
+}, {
+    "channelId": 5,
+    "channelName": "微信-游戏日报",
+    "downloadUrl": ""
+}, {
+    "channelId": 6,
+    "channelName": "微信-游研社",
+    "downloadUrl": ""
+}, {
+    "channelId": 7,
+    "channelName": "微信-触乐网",
+    "downloadUrl": ""
+}, {
+    "channelId": 8,
+    "channelName": "微信-任玩堂",
+    "downloadUrl": ""
+}, {
+    "channelId": 9,
+    "channelName": "微信-手谈姬",
+    "downloadUrl": ""
+}, {
+    "channelId": 10,
+    "channelName": "微信-BB姬",
+    "downloadUrl": ""
+}, {
+    "channelId": 11,
+    "channelName": "百度SEM1",
+    "downloadUrl": ""
+}, {
+    "channelId": 12,
+    "channelName": "百度SEM2",
+    "downloadUrl": ""
+}, {
+    "channelId": 13,
+    "channelName": "百度SEM3",
+    "downloadUrl": ""
+}, {
+    "channelId": 14,
+    "channelName": "百度SEM4",
+    "downloadUrl": ""
+}, {
+    "channelId": 15,
+    "channelName": "百度SEM5",
+    "downloadUrl": ""
+}, {
+    "channelId": 16,
+    "channelName": "百度SEM6",
+    "downloadUrl": ""
+}, {
+    "channelId": 17,
+    "channelName": "百度SEM7",
+    "downloadUrl": ""
+}, {
+    "channelId": 18,
+    "channelName": "百度SEM8",
+    "downloadUrl": ""
+}, {
+    "channelId": 19,
+    "channelName": "百度SEM9",
+    "downloadUrl": ""
+}, {
+    "channelId": 20,
+    "channelName": "百度SEM10",
+    "downloadUrl": ""
+}, {
+    "channelId": 21,
+    "channelName": "百度SEM11",
+    "downloadUrl": ""
+}, {
+    "channelId": 22,
+    "channelName": "百度SEM12",
+    "downloadUrl": ""
+}, {
+    "channelId": 23,
+    "channelName": "百度SEM13",
+    "downloadUrl": ""
+}, {
+    "channelId": 24,
+    "channelName": "百度SEM14",
+    "downloadUrl": ""
+}, {
+    "channelId": 25,
+    "channelName": "百度SEM15",
+    "downloadUrl": ""
+}, {
+    "channelId": 26,
+    "channelName": "百度SEM16",
+    "downloadUrl": ""
+}, {
+    "channelId": 27,
+    "channelName": "百度SEM17",
+    "downloadUrl": ""
+}, {
+    "channelId": 28,
+    "channelName": "百度SEM18",
+    "downloadUrl": ""
+}, {
+    "channelId": 29,
+    "channelName": "百度SEM19",
+    "downloadUrl": ""
+}, {
+    "channelId": 30,
+    "channelName": "百度SEM20",
+    "downloadUrl": ""
+}, {
+    "channelId": 31,
+    "channelName": "百度SEM21",
+    "downloadUrl": ""
+}, {
+    "channelId": 32,
+    "channelName": "百度SEM22",
+    "downloadUrl": ""
+}, {
+    "channelId": 33,
+    "channelName": "百度SEM23",
+    "downloadUrl": ""
+}, {
+    "channelId": 34,
+    "channelName": "百度SEM24",
+    "downloadUrl": ""
+}, {
+    "channelId": 35,
+    "channelName": "百度SEM25",
+    "downloadUrl": ""
+}, {
+    "channelId": 36,
+    "channelName": "百度SEM26",
+    "downloadUrl": ""
+}, {
+    "channelId": 37,
+    "channelName": "百度SEM27",
+    "downloadUrl": ""
+}, {
+    "channelId": 38,
+    "channelName": "百度SEM28",
+    "downloadUrl": ""
+}, {
+    "channelId": 39,
+    "channelName": "百度SEM29",
+    "downloadUrl": ""
+}, {
+    "channelId": 40,
+    "channelName": "百度SEM30",
+    "downloadUrl": ""
+}, {
+    "channelId": 41,
+    "channelName": "百度SEM31",
+    "downloadUrl": ""
+}, {
+    "channelId": 42,
+    "channelName": "百度SEM32",
+    "downloadUrl": ""
+}, {
+    "channelId": 43,
+    "channelName": "百度SEM33",
+    "downloadUrl": ""
+}, {
+    "channelId": 44,
+    "channelName": "百度SEM34",
+    "downloadUrl": ""
+}, {
+    "channelId": 45,
+    "channelName": "百度SEM35",
+    "downloadUrl": ""
+}, {
+    "channelId": 46,
+    "channelName": "百度SEM36",
+    "downloadUrl": ""
+}, {
+    "channelId": 47,
+    "channelName": "百度SEM37",
+    "downloadUrl": ""
+}, {
+    "channelId": 48,
+    "channelName": "百度SEM38",
+    "downloadUrl": ""
+}, {
+    "channelId": 49,
+    "channelName": "百度SEM39",
+    "downloadUrl": ""
+}, {
+    "channelId": 50,
+    "channelName": "百度SEM40",
+    "downloadUrl": ""
+}, {
+    "channelId": 51,
+    "channelName": "百度SEM41",
+    "downloadUrl": ""
+}, {
+    "channelId": 52,
+    "channelName": "百度SEM42",
+    "downloadUrl": ""
+}, {
+    "channelId": 53,
+    "channelName": "百度SEM43",
+    "downloadUrl": ""
+}, {
+    "channelId": 54,
+    "channelName": "百度SEM44",
+    "downloadUrl": ""
+}, {
+    "channelId": 55,
+    "channelName": "百度SEM45",
+    "downloadUrl": ""
+}, {
+    "channelId": 56,
+    "channelName": "百度SEM46",
+    "downloadUrl": ""
+}, {
+    "channelId": 57,
+    "channelName": "百度SEM47",
+    "downloadUrl": ""
+}, {
+    "channelId": 58,
+    "channelName": "百度SEM48",
+    "downloadUrl": ""
+}, {
+    "channelId": 59,
+    "channelName": "百度SEM49",
+    "downloadUrl": ""
+}, {
+    "channelId": 60,
+    "channelName": "百度SEM50",
+    "downloadUrl": ""
+}, {
+    "channelId": 61,
+    "channelName": "搜狗SEM1",
+    "downloadUrl": ""
+}, {
+    "channelId": 62,
+    "channelName": "搜狗SEM2",
+    "downloadUrl": ""
+}, {
+    "channelId": 63,
+    "channelName": "搜狗SEM3",
+    "downloadUrl": ""
+}, {
+    "channelId": 64,
+    "channelName": "搜狗SEM4",
+    "downloadUrl": ""
+}, {
+    "channelId": 65,
+    "channelName": "搜狗SEM5",
+    "downloadUrl": ""
+}, {
+    "channelId": 66,
+    "channelName": "搜狗SEM6",
+    "downloadUrl": ""
+}, {
+    "channelId": 67,
+    "channelName": "搜狗SEM7",
+    "downloadUrl": ""
+}, {
+    "channelId": 68,
+    "channelName": "搜狗SEM8",
+    "downloadUrl": ""
+}, {
+    "channelId": 69,
+    "channelName": "搜狗SEM9",
+    "downloadUrl": ""
+}, {
+    "channelId": 70,
+    "channelName": "搜狗SEM60",
+    "downloadUrl": ""
+}, {
+    "channelId": 71,
+    "channelName": "搜狗SEM11",
+    "downloadUrl": ""
+}, {
+    "channelId": 7,
+    "channelName": "搜狗SEM17",
+    "downloadUrl": ""
+}, {
+    "channelId": 73,
+    "channelName": "搜狗SEM13",
+    "downloadUrl": ""
+}, {
+    "channelId": 74,
+    "channelName": "搜狗SEM14",
+    "downloadUrl": ""
+}, {
+    "channelId": 75,
+    "channelName": "搜狗SEM15",
+    "downloadUrl": ""
+}, {
+    "channelId": 76,
+    "channelName": "搜狗SEM16",
+    "downloadUrl": ""
+}, {
+    "channelId": 77,
+    "channelName": "搜狗SEM17",
+    "downloadUrl": ""
+}, {
+    "channelId": 78,
+    "channelName": "搜狗SEM18",
+    "downloadUrl": ""
+}, {
+    "channelId": 79,
+    "channelName": "搜狗SEM19",
+    "downloadUrl": ""
+}, {
+    "channelId": 80,
+    "channelName": "搜狗SEM20",
+    "downloadUrl": ""
+}, {
+    "channelId": 81,
+    "channelName": "神马SEM1",
+    "downloadUrl": ""
+}, {
+    "channelId": 82,
+    "channelName": "神马SEM2",
+    "downloadUrl": ""
+}, {
+    "channelId": 83,
+    "channelName": "神马SEM3",
+    "downloadUrl": ""
+}, {
+    "channelId": 84,
+    "channelName": "神马SEM4",
+    "downloadUrl": ""
+}, {
+    "channelId": 85,
+    "channelName": "神马SEM5",
+    "downloadUrl": ""
+}, {
+    "channelId": 86,
+    "channelName": "神马SEM6",
+    "downloadUrl": ""
+}, {
+    "channelId": 87,
+    "channelName": "神马SEM7",
+    "downloadUrl": ""
+}, {
+    "channelId": 88,
+    "channelName": "神马SEM8",
+    "downloadUrl": ""
+}, {
+    "channelId": 89,
+    "channelName": "神马SEM9",
+    "downloadUrl": ""
+}, {
+    "channelId": 90,
+    "channelName": "神马SEM60",
+    "downloadUrl": ""
+}, {
+    "channelId": 91,
+    "channelName": "神马SEM11",
+    "downloadUrl": ""
+}, {
+    "channelId": 92,
+    "channelName": "神马SEM17",
+    "downloadUrl": ""
+}, {
+    "channelId": 93,
+    "channelName": "神马SEM13",
+    "downloadUrl": ""
+}, {
+    "channelId": 94,
+    "channelName": "神马SEM14",
+    "downloadUrl": ""
+}, {
+    "channelId": 95,
+    "channelName": "神马SEM15",
+    "downloadUrl": ""
+}, {
+    "channelId": 96,
+    "channelName": "神马SEM16",
+    "downloadUrl": ""
+}, {
+    "channelId": 97,
+    "channelName": "神马SEM17",
+    "downloadUrl": ""
+}, {
+    "channelId": 98,
+    "channelName": "神马SEM18",
+    "downloadUrl": ""
+}, {
+    "channelId": 99,
+    "channelName": "神马SEM19",
+    "downloadUrl": ""
+}, {
+    "channelId": 100,
+    "channelName": "神马SEM20",
+    "downloadUrl": ""
+}, {
+    "channelId": 101,
+    "channelName": "360SEM1",
+    "downloadUrl": ""
+}, {
+    "channelId": 102,
+    "channelName": "360SEM2",
+    "downloadUrl": ""
+}, {
+    "channelId": 103,
+    "channelName": "360SEM3",
+    "downloadUrl": ""
+}, {
+    "channelId": 104,
+    "channelName": "360SEM4",
+    "downloadUrl": ""
+}, {
+    "channelId": 105,
+    "channelName": "360SEM5",
+    "downloadUrl": ""
+}, {
+    "channelId": 106,
+    "channelName": "360SEM6",
+    "downloadUrl": ""
+}, {
+    "channelId": 107,
+    "channelName": "360SEM7",
+    "downloadUrl": ""
+}, {
+    "channelId": 108,
+    "channelName": "360SEM8",
+    "downloadUrl": ""
+}, {
+    "channelId": 109,
+    "channelName": "360SEM9",
+    "downloadUrl": ""
+}, {
+    "channelId": 110,
+    "channelName": "360SEM60",
+    "downloadUrl": ""
+}, {
+    "channelId": 111,
+    "channelName": "360SEM11",
+    "downloadUrl": ""
+}, {
+    "channelId": 112,
+    "channelName": "360SEM12",
+    "downloadUrl": ""
+}, {
+    "channelId": 113,
+    "channelName": "360SEM13",
+    "downloadUrl": ""
+}, {
+    "channelId": 114,
+    "channelName": "360SEM14",
+    "downloadUrl": ""
+}, {
+    "channelId": 115,
+    "channelName": "360SEM15",
+    "downloadUrl": ""
+}, {
+    "channelId": 116,
+    "channelName": "360SEM16",
+    "downloadUrl": ""
+}, {
+    "channelId": 117,
+    "channelName": "360SEM17",
+    "downloadUrl": ""
+}, {
+    "channelId": 118,
+    "channelName": "360SEM18",
+    "downloadUrl": ""
+}, {
+    "channelId": 119,
+    "channelName": "360SEM19",
+    "downloadUrl": ""
+}, {
+    "channelId": 120,
+    "channelName": "360SEM20",
+    "downloadUrl": ""
+}, {
+    "channelId": 121,
+    "channelName": "icon测试1",
+    "downloadUrl": ""
+}, {
+    "channelId": 122,
+    "channelName": "icon测试2",
+    "downloadUrl": ""
+}, {
+    "channelId": 123,
+    "channelName": "icon测试3",
+    "downloadUrl": ""
+}, {
+    "channelId": 124,
+    "channelName": "icon测试4",
+    "downloadUrl": ""
+}, {
+    "channelId": 125,
+    "channelName": "icon测试5",
+    "downloadUrl": ""
+}, {
+    "channelId": 126,
+    "channelName": "icon测试6",
+    "downloadUrl": ""
+}]

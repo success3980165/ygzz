@@ -1,0 +1,120 @@
+body{
+  background: url(../img/bg.jpg) no-repeat center top;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
+}
+.lunbo{
+  position: absolute;
+  top: 980px;
+  width: 100%;
+  text-align: center;
+}
+.infor{
+  font-family: 'SIMLI';
+  position: absolute;
+  top: 1258px;
+  width: 100%;
+}
+.infor-ul{
+  overflow: hidden;
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  width: 520px;
+  height: 48px;
+  margin-left: 60px;
+  padding-top: 40px;
+  float: left;
+}
+.infor-ul li{
+  display: inline-block;
+  width: 98px;
+  line-height: 30px;
+  float: left;
+}
+.infor-ul li:nth-child(5){
+  border-right: none;
+}
+/*.infor-ul li:hover{
+  color: #653c20;
+}*/
+.inforact{
+  background: url(../img/classify_bg.png) no-repeat;
+  background-size: 111%;
+}
+.list{
+  width: 520px;
+  height: 103px;
+  margin-top: 30px;
+  margin-left: 60px;
+  overflow: hidden;
+}
+.list li{
+  /*border-image: url('../img/li_bg.png');*/
+  font-family: "Microsoft YaHei";
+  font-size: 20px;
+  color: #7e7f76;
+  padding: 10px 10px;
+  border-bottom: dashed 1px #979595;
+}
+.fr_dis{
+  width: 115px;
+  float: right;
+  display: inline-block;
+  margin-right: 20px;
+}
+.w420{
+  width: 350px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.more{
+  float: right;
+  margin-right: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 62px;
+  height: 30px;
+  font-size: 20px;
+  color: #7e7f76;
+}
+.juese{
+  position: absolute;
+  top: 1607px;
+  width: 100%;
+}
+.touxiang{
+  position: absolute;
+  top: 2260px;
+  display: flex;
+  justify-content: space-between;
+  width: 580px;
+  margin-left: 30px;
+}
+.share{
+  position: absolute;
+  top: 2460px;
+  display: flex;
+  justify-content: space-around;
+  width: 640px;
+}
+.share img{
+  width: 200px;
+  height: 120px;
+}
+.footer{
+  width: 600px;
+  height: 240px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  position: absolute;
+  top: 2830px;
+  color: rgb(51,73,93);
+  font-size: 16px;
+  /*text-align: center;*/
+  /*background: url(../img/footer_bg.jpg) no-repeat;
+  background-size: 100%;*/
+}

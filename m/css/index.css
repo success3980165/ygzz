@@ -1,0 +1,232 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+@font-face{
+  font-family: "SIMLI";
+  src: url("../fonts/SIMLI.eot"); /* IE9 */
+  src: url("../fonts/SIMLI.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/SIMLI.woff") format("woff"), /* chrome, firefox */
+
+  /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url("../fonts/SIMLI.ttf") format("truetype"),
+  url("../fonts/SIMLI.svg#SIMLI") format("svg"); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: normal;
+}
+#app{
+  background: url(../img/bg.jpg) no-repeat center top;
+  width: 640px;
+  background-color: #20110e;
+  font-family: "SIMLI";
+}
+.container {
+  height: 1397px;
+}
+input:-ms-input-placeholder{
+    color: #fff;opacity:1;
+    font-family: "SIMLI";
+}
+
+input::-webkit-input-placeholder{
+    color: #fff;opacity:1;
+    font-family: "SIMLI";
+}
+input[type="button"]{
+  -webkit-appearance: none;
+  font-family: "SIMLI";
+}
+#cover {
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: #000;
+}
+#cover2 {
+  position: fixed;
+  z-index: 101;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: #000;
+}
+.yuyue{
+  background: url(../img/yuyue.png) no-repeat center top;
+  width: 132px;
+  height: 124px;
+  position: absolute;
+  right: 40px;
+  top: 748px;
+}
+.gainian{
+  background: url(../img/gainianzhan.png) no-repeat center top;
+  width: 132px;
+  height: 124px;
+  position: absolute;
+  right: 33px;
+  top: 871px;
+}
+.dialog{
+  background: url(../img/dialog.png) no-repeat center top;
+  width: 640px;
+  height: 941px;
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -470.5px 0 0 -320px;
+}
+.close{
+  width: 45px;
+  height: 47px;
+  position: absolute;
+  top: 84px;
+  left: 527px;
+  z-index: 1000;
+}
+.left{
+  width: 37px;
+  height: 55px;
+  position: absolute;
+  top: 327px;
+  left: 92px;
+  z-index: 1000;
+}
+.right{
+  width: 37px;
+  height: 55px;
+  position: absolute;
+  top: 329px;
+  left: 509px;
+  z-index: 1000;
+}
+.lei{
+  background: url(../img/lei.png) no-repeat center top;
+  width: 540px;
+  height: 501px;
+  margin-top: 63px;
+  margin-left: 81px;
+}
+.mu{
+  background: url(../img/mu.png) no-repeat center top;
+  width: 540px;
+  height: 501px;
+  margin-top: 63px;
+  margin-left: 81px;
+}
+.yuyue_phone{
+  width: 354px;
+  margin: 0 auto;
+}
+.telephone{
+  background: url(../img/phone.png) no-repeat center top;
+  width: 354px;
+  height: 73px;
+  font-size: 22px;
+  border: none;
+  text-align: center;
+  outline: none;
+  color: #fff;
+}
+.code{
+  background: url(../img/yanzhengma.png) no-repeat center top;
+  width: 204px;
+  height: 64px;
+  font-size: 22px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  border: none;
+}
+.yanzheng{
+  background: url(../img/huoqu.png) no-repeat center top;
+  width: 130px;
+  height: 64px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  text-align: center;
+  border: none;
+  font-family: "SIMLI";
+}
+.yyyx{
+  background: url(../img/button.png) no-repeat center top;
+  width: 358px;
+  height: 96px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-top: 64px;
+}
+.android{
+  width: 43px;
+  height: 34px;
+  position: absolute;
+  top: 719px;
+  left: 359px;
+}
+.ios{
+  width: 43px;
+  height: 34px;
+  margin-top: 17px;
+  margin-left: 52px;
+  float: left;
+}
+.active{
+  background: url(../img/gou.png) no-repeat center top;
+}
+.grayBg{
+  background-color: lightGray;
+}
+.success{
+  width: 638px;
+  height: 462px;
+  z-index: 105;
+  background: url(../img/success.png) no-repeat center top;
+  position: fixed;
+  top: 255px;
+  left: 1px;
+}
+.closesuccess{
+  width: 45px;
+  height: 47px;
+  position: absolute;
+  top: 72px;
+  left: 527px;
+  z-index: 103;
+}
+.fail{
+  width: 638px;
+  height: 462px;
+  z-index: 105;
+  background: url(../img/fail.png) no-repeat center top;
+  position: fixed;
+  top: 255px;
+  left: 1px;
+}
+.closefail{
+  width: 45px;
+  height: 47px;
+  position: absolute;
+  top: 72px;
+  left: 527px;
+  z-index: 103;
+}
+a{
+  color: #634847;
+}
+.footer {
+  width: 600px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #634847;
+  margin-bottom: 20px;
+  padding-top: 1170px;
+}
